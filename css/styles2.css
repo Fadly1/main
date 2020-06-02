@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: 'Chelsea Market', cursive;
+  line-height: 2;
+}
+
+p {
+  font-family: 'Acme', sans-serif;
+  margin: 0;
+}
+
+h2, h3, a {
+  font-family: 'Merienda One', cursive;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div1 {
+  position: absolute;
+  left: 0;
+  width: 33.33%;
+  background-color: black;
+  height: 300px;
+}
+
+.div2 {
+  position: absolute;
+  left: 33.33%;
+  width: 33.33%;
+  background-color: black;
+  height: 300px;
+}
+
+.div3 {
+  position: absolute;
+  right: 0;
+  width: 33.33%;
+  background-color: black;
+  height: 300px;
+}
+
+.div1:hover {
+  background-color: red
+}
+
+
+.div2:hover {
+  background-color: blue
+}
+
+
+.div3:hover {
+  background-color: green
+}
+
+a:hover {
+  color: #303960;
+}
+
+.header-text {
+  color: white;
+  text-align: left;
+  font-size: 10em;
+  margin: 30px 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.upper-div {
+  position: relative;
+  height: 300px;
+}
+
+.middle-div {
+ margin: 60px 120px;
+
+}
+
+.middle-div p {
+  font-size: 1.2em;
+}
+
+.middle-div h2 {
+  font-size: 1.7em;
+}
+
+.bottom-div {
+  background-color: #707070;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+
+}
+
+.profile {
+text-align: center;
+margin-bottom: 60px;
+
+}
+
+.profile img{
+  max-width: 20%;
+  max-height: 100%;
+  border-radius: 30%;
+}
+
+.profile-desc {
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Nova Mono', monospace;
+}
+
+
+.web-dev {
+ margin: 40px 0 100px;
+ height: 100px;
+
+}
+
+
+.support {
+ height: 100px;
+}
+
+.web-dev img {
+  max-width: 20%;
+  max-height: 100%;
+  border-radius: 30%;
+  float:right;
+}
+
+.support img{
+  max-width: 20%;
+  max-height: 100%;
+  border-radius: 30%;
+  float: right;
+}
+
+
+.hobbies-desc {
+  margin-left: 250px;
+
+}
+
+.cooking {
+ margin: 40px 0 100px;
+ height: 100px;
+}
+
+.cooking img {
+  max-width: 20%;
+  max-height: 100%;
+  border-radius: 30%;
+  float: left;
+}
+
+.music {
+ height: 100px;
+}
+
+.music img{
+  width: 15%;
+  max-height: 100%;
+  border-radius: 30%;
+  float: left;
+
+}
+.get-in-touch {
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.get-in-touch-desc {
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Nova Mono', monospace;
+}
+
+.button {
+	box-shadow: -2px -1px 0 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:23px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:2px 21px;
+	text-decoration:none;
+	text-shadow:0 2px 0 #283966;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.socials-header {
+  margin-bottom: 0;
+}
+
+.social-links {
+  word-spacing: 50px;
+}
