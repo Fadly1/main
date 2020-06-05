@@ -107,9 +107,9 @@ margin-bottom: 60px;
 }
 
 .profile-desc {
-  width: 30%;
-  margin: 0 auto;
-  font-family: 'Nova Mono', monospace;
+ margin: 40px 0 100px;
+ height: 100px;
+ font-family: 'Nova Mono', monospace;
 }
 
 
