@@ -108,7 +108,8 @@ margin-bottom: 60px;
 
 .profile-desc {
  margin: 40px 0 100px;
- font-family: 'Nova Mono', monospace;
+ font-family: 'Roboto';
+ font-weight: 300;
 }
 
 
@@ -121,6 +122,13 @@ margin-bottom: 60px;
 
 .support {
  height: 100px;
+}
+
+.sales img {
+  max-width: 20%;
+  max-height: 100%;
+  border-radius: 30%;
+  float:right;
 }
 
 .web-dev img {
@@ -175,7 +183,7 @@ margin-bottom: 60px;
 .get-in-touch-desc {
   width: 30%;
   margin: 0 auto;
-  font-family: 'Nova Mono', monospace;
+  font-family: 'Roboto';
 }
 
 .button {
