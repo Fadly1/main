@@ -5,7 +5,8 @@ body {
 }
 
 p {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Roboto';
+  font-weight: 300;
   margin: 0;
 }
 
@@ -114,13 +115,12 @@ margin-bottom: 60px;
 
 
 .web-dev {
- margin: 40px 0 100px;
+ margin-top: 40px;
  height: 100px;
-
 }
 
-
 .support {
+ margin: 40px 0 40px;
  height: 100px;
 }
 
